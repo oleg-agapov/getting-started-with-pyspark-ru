@@ -28,8 +28,14 @@
 2. Активируем окружение:
 
    ```bash
+   # Linux, macOs
    source venv/bin/activate
+
+   # Windows
+   venv\Scripts\activate.bat
    ```
+
+   [Официальная инструкция](https://docs.python.org/3/library/venv.html) по активации окружения.
 
 3. Ставим pyspark из `pip`:
 
